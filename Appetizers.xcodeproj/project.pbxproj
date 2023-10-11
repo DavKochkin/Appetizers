@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		043D1FC52AD6C2440058BFE9 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */; };
+		043D1FD42AD6F9370058BFE9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD32AD6F9370058BFE9 /* AppetizerDetailView.swift */; };
 		049A47C52ACEE8910084699C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A47C42ACEE8910084699C /* NetworkManager.swift */; };
 		049A47C72ACEE99F0084699C /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A47C62ACEE99F0084699C /* APError.swift */; };
 		04ADF7842ACAD64B00E000B6 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF7832ACAD64B00E000B6 /* AppetizersApp.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		043D1FD32AD6F9370058BFE9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		049A47C42ACEE8910084699C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		049A47C62ACEE99F0084699C /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		04ADF7802ACAD64B00E000B6 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,7 @@
 			children = (
 				04CB6BA42AD12D3C00EDBB9B /* AppetizerListViewModel.swift */,
 				04ADF7912ACAD71800E000B6 /* AppetizerListView .swift */,
+				043D1FD32AD6F9370058BFE9 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				04ADF7922ACAD71800E000B6 /* AppetizerListView .swift in Sources */,
 				04D5644D2AD27EFA0083BD18 /* Alert.swift in Sources */,
 				04ADF7842ACAD64B00E000B6 /* AppetizersApp.swift in Sources */,
+				043D1FD42AD6F9370058BFE9 /* AppetizerDetailView.swift in Sources */,
 				04ADF7962ACAD72C00E000B6 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
