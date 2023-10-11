@@ -52,7 +52,7 @@ final class NetworkManager {
     }
     
     // Download image from network
-    func donwloadImage(fromURLString urlString: String, completed: @escaping (UIImage?) -> Void) {
+    func downloadImage(fromURLString urlString: String, completed: @escaping (UIImage?) -> Void) {
         
         let cacheKey = NSString(string: urlString)
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043D1FC52AD6C2440058BFE9 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */; };
 		049A47C52ACEE8910084699C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A47C42ACEE8910084699C /* NetworkManager.swift */; };
 		049A47C72ACEE99F0084699C /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A47C62ACEE99F0084699C /* APError.swift */; };
 		04ADF7842ACAD64B00E000B6 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADF7832ACAD64B00E000B6 /* AppetizersApp.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		049A47C42ACEE8910084699C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		049A47C62ACEE99F0084699C /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		04ADF7802ACAD64B00E000B6 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 				04D5644C2AD27EFA0083BD18 /* Alert.swift */,
 				04F650482AD540190091AC7B /* LoadingView.swift */,
 				04F6504A2AD541B20091AC7B /* Color+Ext.swift */,
+				043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				04F650492AD540190091AC7B /* LoadingView.swift in Sources */,
 				04ADF7862ACAD64B00E000B6 /* AppetizerTabView.swift in Sources */,
 				049A47C52ACEE8910084699C /* NetworkManager.swift in Sources */,
+				043D1FC52AD6C2440058BFE9 /* RemoteImage.swift in Sources */,
 				04ADF7922ACAD71800E000B6 /* AppetizerListView .swift in Sources */,
 				04D5644D2AD27EFA0083BD18 /* Alert.swift in Sources */,
 				04ADF7842ACAD64B00E000B6 /* AppetizersApp.swift in Sources */,
