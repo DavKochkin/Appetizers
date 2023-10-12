@@ -84,7 +84,21 @@ struct AppetizerDetailView: View {
         .background(Color(.systemBackground))
         .cornerRadius(12)
         .shadow(radius: 40)
-        .overlay(Text("Test"), alignment: .topTrailing)
+        .overlay(Button {
+            print("dismiss")
+        } label: {
+            ZStack {
+                Circle()
+                    .frame(width: 30, height: 30)
+                    .foregroundStyle(.white)
+                    .opacity(0.6)
+                
+                Image(systemName: "xmark")
+                    .imageScale(.small)
+                    .frame(width: 44, height: 44)
+                    .foregroundStyle(.black)
+            }
+        }, alignment: .topTrailing)
     }
 }
 
