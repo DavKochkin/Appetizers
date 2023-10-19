@@ -21,13 +21,20 @@ final class AccountViewModel: ObservableObject {
             userData = data
             alertItem = AlertContex.userSaveSuccess
         } catch {
-            alertItem = AlertContex.invalidUserData 
+            alertItem = AlertContex.invalidUserData
         }
     }
     
     func retrieveUser() {
+        guard let userData = userData else {return}
         
+        do {
+            user = try JSONDecoder().decode(User.self, from: userData)
+        } catch {
+            alertItem = AlertContex.invalidUserData
+        }
     }
+    
     
     var isValidForm: Bool {
         guard !user.firstName.isEmpty && !user.lastName.isEmpty && !user.email.isEmpty else {
