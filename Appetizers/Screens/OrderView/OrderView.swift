@@ -9,14 +9,20 @@ import SwiftUI
 
 struct OrderView: View {
     
+    @State private var orderItems = MockData.orderItems
+    
     var body: some View {
         ZStack {
             NavigationView {
                 VStack {
                     List {
-                        ForEach(MockData.orderItems) { appetizer in
+                        ForEach(orderItems) { appetizer in
                             AppetizerListCell(appetizer: appetizer)
                         }
+                        .onDelete(perform: deleteItems)
+                        //                        .onDelete(perform: { indexSet in
+                        //                            orderItems.remove(atOffsets: indexSet)
+                        //                        })
                     }
                     .listStyle(PlainListStyle())
                     
@@ -31,6 +37,9 @@ struct OrderView: View {
                 .navigationTitle("Order")
             }
         }
+    }
+    func deleteItems(at offsets: IndexSet) {
+        orderItems.remove(atOffsets: offsets)
     }
 }
 
