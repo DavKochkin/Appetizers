@@ -26,7 +26,6 @@ struct AppetizerTabView: View {
                     Label("Order", systemImage: "bag")}
                 .badge(order.items.count)
         }
-        .accentColor(.brandPrimary)
     }
 }
 #Preview {
