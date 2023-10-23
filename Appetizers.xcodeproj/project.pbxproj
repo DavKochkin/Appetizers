@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0415D3602AE63EC000151581 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415D35F2AE63EC000151581 /* CustomModifiers.swift */; };
 		043D1FC52AD6C2440058BFE9 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */; };
 		043D1FD42AD6F9370058BFE9 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD32AD6F9370058BFE9 /* AppetizerDetailView.swift */; };
 		043D1FD72AD95FF70058BFE9 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D1FD62AD95FF70058BFE9 /* APButton.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0415D35F2AE63EC000151581 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		043D1FC42AD6C2440058BFE9 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		043D1FD32AD6F9370058BFE9 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		043D1FD62AD95FF70058BFE9 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				043D1FD22AD6CDB90058BFE9 /* Image */,
 				043D1FD12AD6CDB10058BFE9 /* Cells */,
 				043D1FD02AD6CDA50058BFE9 /* UIKit Components */,
+				0415D35F2AE63EC000151581 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				04ADF7922ACAD71800E000B6 /* AppetizerListView .swift in Sources */,
 				04D5644D2AD27EFA0083BD18 /* Alert.swift in Sources */,
 				04ADF7842ACAD64B00E000B6 /* AppetizersApp.swift in Sources */,
+				0415D3602AE63EC000151581 /* CustomModifiers.swift in Sources */,
 				043D1FD42AD6F9370058BFE9 /* AppetizerDetailView.swift in Sources */,
 				04ADF7962ACAD72C00E000B6 /* OrderView.swift in Sources */,
 			);
